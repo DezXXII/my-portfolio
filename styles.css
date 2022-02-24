@@ -51,29 +51,52 @@ header h1 {
     color: gold;
 }
 
-/** About Me Section **/
+/** Presentation **/
 
-.about-me {
+.presentation {
     display: flex;
     margin-top: 15rem;
     justify-content: space-between;
 }
 
-.about-me p {
-    font-size: 3rem;
-    line-height: 4rem;
-    text-align: justify;
-}
-
-.about-me h2 {
+.presentation h2 {
     font-size: 7rem;
-    margin-top: -.4rem;
 }
 
 .svg-image img {
     border: 2.5px solid white;
     border-radius: 50%;
     width: 50rem;
+}
+
+/** About Me Section **/
+
+.about-me {
+    text-align: center;
+}
+
+.about-me h1 {
+    margin-top: 15rem;
+}
+
+
+.about-me p {
+    font-size: 3rem;
+    line-height: 5rem;
+    width: 100rem;
+    margin: 0 auto;
+    
+}
+
+.about-me-logos {
+    text-align: center;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.about-me-logos img {
+    width: 15rem;
+    height: 15rem;
 }
 
 /** Image Links **/
