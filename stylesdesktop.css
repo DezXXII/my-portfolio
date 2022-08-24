@@ -1,0 +1,131 @@
+/** Global Configurations **/
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+/** Header **/
+
+header h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+/** Nav Bar **/
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-items a {
+    color: white;
+    font-size: 3rem;
+    margin-right: 8rem;
+    text-decoration: none;
+    transition: .5s;
+    font-weight: bold;
+}
+
+.navbar-items a:last-child {
+    margin-right: 0;
+}
+
+.navbar-items a:hover {
+    color: gold;
+}
+
+/** Presentation **/
+
+.presentation {
+    display: flex;
+    margin-top: 15rem;
+    justify-content: space-between;
+}
+
+.presentation h2 {
+    font-size: 7rem;
+}
+
+.svg-image img {
+    border: 2.5px solid white;
+    border-radius: 50%;
+    width: 50rem;
+}
+
+/** About Me Section **/
+
+.about-me {
+    text-align: center;
+}
+
+.about-me h1 {
+    margin-top: 15rem;
+}
+
+
+.about-me p {
+    font-size: 3rem;
+    line-height: 5rem;
+    width: 100rem;
+    margin: 0 auto;
+    
+}
+
+.about-me-logos {
+    text-align: center;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.about-me-logos img {
+    width: 15rem;
+    height: 15rem;
+}
+
+/** Image Links **/
+
+.image-links img {
+    margin-top: 4px;
+    width: 6rem;
+}
+
+.image-links {
+    background-color: white;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem;
+    width: 20rem;
+}
+
+.image-links img:hover {
+    cursor: pointer
+}
+
+/** My Projects Section **/
+
+.projects h1 {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+/** Contact Me Section **/
+
+.contact h1 {
+    margin-top: 15rem;
+    text-align: center;
+}
