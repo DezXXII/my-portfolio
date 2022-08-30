@@ -34,7 +34,7 @@ header h1 {
 
 /** Header > Nav **/
 
-/* nav {
+nav {
     display: flex;
     flex-direction: column;
 }
@@ -44,7 +44,7 @@ nav a {
     font-size: 28px;
     margin-bottom: 20px;
     text-decoration: none;
-} */
+}
 
 /** Section 1 Presentation **/
 
@@ -111,7 +111,7 @@ nav a {
     font-size: 35px;
 }
 
-/** Section 2 Technologies Images **/
+/** Section 2 Technologies > Images **/
 
 .technologies-images {
     margin: 0 auto;
@@ -123,8 +123,74 @@ nav a {
 
 .technologies-images img {
     width: 80px;
+    padding: 10px 3px 1px 3px;
 }
 
 .github-icon-tech {
     width: 80px;
+    height: 85px;
+    padding: 10px 10px 1px 10px;
+}
+
+.tech-bg {
+    background-color: #131313;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.middle-image {
+    width: 80px;
+    margin: 0 auto;
+}
+
+/** Section 3 Projects **/
+
+.projects {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.projects h2 {
+    font-size: 35px;
+}
+
+.projects-container {
+    background-color: #131313;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+
+.project-info-bg {
+    background-color: #202020;
+    width: 93%;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.projects-images {
+    padding: 20px;
+}
+
+.project-image {
+    width: 95%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.project-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-buttons a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
